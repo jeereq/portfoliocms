@@ -1,0 +1,28 @@
+.bg {
+	&-purple {
+		background-color: purple;
+	}
+	&-white {
+		background-color: white;
+	}
+	&-grey {
+		background-color: #f5f6fa;
+	}
+}
+.text {
+	&-purple {
+		color: purple;
+	}
+	&-white {
+		color: white;
+	}
+}
+
+.resume {
+	background: linear-gradient(-25deg, #3498ff, purple);
+}
+.degrade {
+	&-white-purple {
+		background: linear-gradient(-25deg, #3498ff, purple);
+	}
+}
